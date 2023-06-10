@@ -1,0 +1,32 @@
+                                                                   
+
+
+
+               TOOLS REQUIRED TO RUN THE PROJECT:
+
+               1. VS Code
+               2. Postgres SQL .
+               3. PgAdmin.
+
+
+
+
+
+
+               INSTRUCTIONS TO RUN THE PROJECT:
+       
+
+ 
+
+              1. Extract the zip folder.
+              2. Open the disease forecaster folder inside VS code.
+              3. Install postgres SQL and PgAdmin in your system.
+              4. Mannually create DB instance on postgres SQL named Predico. 
+              5. Create the virtual environment.
+              6. Run pip install -r requirements.txt to install dependencies.
+              7. Run python manage.py make migrations.
+              8. Run python manage.py migrate.
+              9. Run python manage.py run server.
+             10. Navigate to http://127.0.0.1:8000/ in your browser.
+             
+             
